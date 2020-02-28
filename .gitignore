@@ -1,15 +1,16 @@
-# This .gitignore file should be placed at the root of your Unity project directory
-#
-# Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
-#
-/[Ll]ibrary/
+[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+<<<<<<< HEAD
 /SUITS_AR/Temp/
+=======
+/lunAR_lion/Temp/
+/noVoice_lunAR_lion/Temp/
+>>>>>>> 35ba417737c94945e6158df86f62f52096f09e48
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -59,3 +60,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+#IntelliJ stuff
+*/.idea/*
+*/*/.idea/*
